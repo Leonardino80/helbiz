@@ -1,0 +1,72 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: arial;
+}
+
+.header-bianco{
+  color: white;
+  padding-right: 0 30px;
+  width: 80%;
+  margin: 0 auto;
+  background-image: url('fuorisalone.jpeg');
+  background-size: cover;
+}
+.container-bianco a {
+  color: white;
+}
+
+a{
+text-decoration: none;
+}
+
+.navy-flex{
+  display: flex;
+  justify-content:space-around;
+  padding: 10px;
+}
+
+.navy-flex ul li, .navy-flex ul li span{
+  display: inline-block;
+  font-size: 10px;
+}
+
+.navy-flex ul li{
+padding:0 20px;
+}
+
+.navy-flex ul, {
+  display: flex;
+  flex-grow: 2;
+  flex-wrap: nowrap;
+}
+
+.navy-flex span{
+  display: flex;
+  flex-grow: 1;
+  flex-wrap: nowrap;
+}
+
+
+/* elemento lingue */
+.navy-flex ul li span{
+border-right: 2px solid white;
+}
+
+.navy-flex ul li span:last-child{
+border-right: 0;
+}
+/* fine elemento lingue */
+
+.section-flex{
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.logo-al-centro{
+}
